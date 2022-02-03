@@ -1,10 +1,14 @@
 <template>
   <main>
-    <section>
+    <section class="py-5">
       <h1 class="font-bold text-center text-5xl">My Nuxt Video Blog</h1>
     </section>
-    <section v-for="post in posts" :key="post.title">
-      <h2 class="font-semibold text-xl">{{ post.title }}</h2>
+    <section class="p-5 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+      <PostPreview
+        v-for="post in posts"
+        :key="post.slug"
+        :post="post"
+      ></PostPreview>
     </section>
   </main>
 </template>
