@@ -1,7 +1,7 @@
 <template>
   <div class="py-20">
     <section class="px-5">
-      <NuxtLink to="/" href="/" class="py-2 text-gray-500">
+      <NuxtLink to="/" href="/" class="py-2 text-gray-500 flex space-x-2">
         <svg
           width="24"
           height="24"
@@ -14,7 +14,6 @@
             fill="currentColor"
           />
         </svg>
-
         Go back
       </NuxtLink>
 
