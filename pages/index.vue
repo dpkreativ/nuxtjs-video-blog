@@ -1,5 +1,12 @@
 <template>
-  <Tutorial />
+  <main>
+    <section>
+      <h1 class="font-bold text-center text-5xl">My Nuxt Video Blog</h1>
+    </section>
+    <section v-for="post in posts" :key="post.title">
+      <h2 class="font-semibold text-xl">{{ post.title }}</h2>
+    </section>
+  </main>
 </template>
 
 <script>
