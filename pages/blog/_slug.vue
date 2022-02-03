@@ -1,7 +1,11 @@
 <template>
   <div class="py-20">
     <section class="px-5">
-      <NuxtLink to="/" href="/" class="py-2 text-gray-500 flex space-x-2">
+      <NuxtLink
+        to="/"
+        href="/"
+        class="py-2 text-gray-500 flex space-x-3 items-center"
+      >
         <svg
           width="24"
           height="24"
