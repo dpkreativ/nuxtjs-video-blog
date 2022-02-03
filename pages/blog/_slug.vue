@@ -1,9 +1,23 @@
 <template>
   <div class="py-20">
     <section class="px-5">
-      <NuxtLink to="/" href="/" class="py-2 text-gray-500"
-        >&#129040; Go back</NuxtLink
-      >
+      <NuxtLink to="/" href="/" class="py-2 text-gray-500">
+        <svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M5.83 11L8.41 8.41L7 7L2 12L7 17L8.41 15.59L5.83 13H22V11H5.83Z"
+            fill="#2E3A59"
+          />
+        </svg>
+
+        Go back
+      </NuxtLink>
+
       <div class="mt-5">
         <video controls class="w-full" preload="metadata">
           <source :src="post.video" type="video/mp4" />
